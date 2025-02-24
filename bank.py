@@ -1,8 +1,7 @@
 from accounts import Account, SavingsAccount, CheckingAccount
-
+import logging
 SAVINGS = "savings"
 CHECKING = "checking"
-
 class Bank:
     "This class represents a Bank that manages multiple accounts"
 
@@ -22,6 +21,7 @@ class Bank:
             a = CheckingAccount(acct_num)
         else:
             return None
+        logging.debug(f"Created account: {acct_num}")
         self._accounts.append(a)
 
     def _generate_account_number(self) -> int:
