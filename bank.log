@@ -1,0 +1,1197 @@
+DEBUG:root:Created account: 1
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created account: 2
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created account: 3
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created account: 1
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created account: 1
+DEBUG:root:Created account: 1
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created account: 1
+DEBUG:root:Created account: 1
+DEBUG:root:Created account: 1
+DEBUG:root:Created account: 1
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created account: 1
+ERROR:root:InvalidOperation: Invalid input. Please enter a valid dollar amount.
+
+DEBUG:root:Created account: 1
+ERROR:root:ValueError: Invalid input. Please enter a valid date in the format YYYY-MM-DD.
+
+ERROR:root:ValueError: Invalid input. Please enter a valid date in the format YYYY-MM-DD.
+
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created transaction: {self._account_number} {amt}
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+DEBUG:root:Created account: 1
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created transaction: {self._account_number} {amt}
+ERROR:root:InvalidOperation: Invalid input. Please enter a valid dollar amount.
+
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created transaction: {self._account_number} {amt}
+ERROR:root:InvalidOperation: Invalid input. Please enter a valid dollar amount.
+
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created transaction: {self._account_number} {amt}
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+DEBUG:root:Created account: 1
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created transaction: {self._account_number} {amt}
+DEBUG:root:Created transaction: {self._account_number} {amt}
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+ERROR:root:TransactionSequenceError: 'Cannot apply interest and fees again in the month of October', datetime.date(2024, 10, 31))
+ERROR:root:AttributeError("'NoneType' object has no attribute 'assess_interest_and_fees'")
+2025-02-12 19:30:55|ERROR|AttributeError("'NoneType' object has no attribute 'assess_interest_and_fees'")
+2025-02-12 19:32:23|ERROR|AttributeError: 'NoneType' object has no attribute 'assess_interest_and_fees'
+2025-02-12 19:39:44|DEBUG|Created account: 1
+2025-02-12 19:39:47|DEBUG|Created account: 2
+2025-02-12 19:40:08|DEBUG|Created transaction: 1 50
+2025-02-12 19:40:11|DEBUG|Created transaction: 1 0.0400
+2025-02-12 19:40:11|DEBUG|Created transaction: 1 -5.75
+2025-02-12 19:40:12|ERROR|TypeError: TransactionSequenceError._generate_message() missing 1 required positional argument: 'error_type'
+2025-02-12 19:42:20|DEBUG|Created account: 1
+2025-02-12 19:42:50|DEBUG|Created account: 1
+2025-02-12 19:42:53|ERROR|AttributeError: 'NoneType' object has no attribute 'last_day_of_month'
+2025-02-12 19:43:05|DEBUG|Created account: 1
+2025-02-12 19:43:13|DEBUG|Created transaction: 1 50
+2025-02-12 19:43:17|DEBUG|Created transaction: 1 0.0400
+2025-02-12 19:43:17|DEBUG|Created transaction: 1 -5.75
+2025-02-12 19:43:18|ERROR|TypeError: TransactionSequenceError._generate_message() missing 1 required positional argument: 'error_type'
+2025-02-12 19:43:55|DEBUG|Created account: 1
+2025-02-12 19:44:05|DEBUG|Created transaction: 1 50
+2025-02-12 19:44:07|DEBUG|Created transaction: 1 0.0400
+2025-02-12 19:44:07|DEBUG|Created transaction: 1 -5.75
+2025-02-12 19:44:08|ERROR|AttributeError: 'datetime.date' object has no attribute '_month'
+2025-02-12 19:45:00|DEBUG|Created account: 1
+2025-02-12 19:45:03|DEBUG|Created transaction: 1 50
+2025-02-12 19:45:04|DEBUG|Created transaction: 1 0.0400
+2025-02-12 19:45:04|DEBUG|Created transaction: 1 -5.75
+2025-02-12 19:45:05|ERROR|AttributeError: 'datetime.date' object has no attribute '_month'
+2025-02-12 19:45:38|DEBUG|Created account: 1
+2025-02-12 19:45:52|DEBUG|Created transaction: 1 50
+2025-02-12 19:45:54|DEBUG|Created transaction: 1 0.0400
+2025-02-12 19:45:54|DEBUG|Created transaction: 1 -5.75
+2025-02-12 19:46:22|DEBUG|Created account: 1
+2025-02-12 19:46:28|DEBUG|Created transaction: 1 50
+2025-02-12 19:46:31|DEBUG|Created transaction: 1 0.0400
+2025-02-12 19:46:31|DEBUG|Created transaction: 1 -5.75
+2025-02-12 19:47:20|DEBUG|Created account: 1
+2025-02-12 19:47:23|DEBUG|Created transaction: 1 50
+2025-02-12 19:47:25|DEBUG|Created transaction: 1 0.0400
+2025-02-12 19:47:25|DEBUG|Created transaction: 1 -5.75
+2025-02-21 17:05:27|DEBUG|Created account: 1
+2025-02-21 17:05:40|DEBUG|Created transaction: 1 4
+2025-02-21 17:05:59|DEBUG|Created transaction: 1 0.0032
+2025-02-21 17:05:59|ERROR|OverdrawError: 
+2025-02-21 17:06:09|DEBUG|Created account: 1
+2025-02-21 17:06:18|DEBUG|Created transaction: 1 4
+2025-02-21 17:06:22|DEBUG|Created transaction: 1 0.0032
+2025-02-21 17:06:22|ERROR|OverdrawError: 
+2025-02-21 17:07:02|DEBUG|Created account: 1
+2025-02-21 17:07:08|DEBUG|Created transaction: 1 4
+2025-02-21 17:07:13|DEBUG|Created transaction: 1 0.0032
+2025-02-21 17:16:51|DEBUG|Created account: 1
+2025-02-21 17:17:48|DEBUG|Created account: 1
+2025-02-21 17:17:48|DEBUG|Created account: 1
+2025-02-21 17:18:42|DEBUG|Created account: 1
+2025-02-21 17:18:46|DEBUG|Created transaction: 1 50
+2025-02-21 17:18:49|DEBUG|Created transaction: 1 0.0400
+2025-02-21 17:18:49|DEBUG|Created transaction: 1 -5.75
+2025-02-21 17:18:49|DEBUG|Triggered interest and fees
+2025-02-21 17:20:15|DEBUG|Created account: 1
+2025-02-21 17:20:24|DEBUG|Created transaction: 1 4
+2025-02-21 17:20:26|DEBUG|Created transaction: 1 0.0032
+2025-02-21 17:20:26|DEBUG|Created transaction: 1 -5.75
+2025-02-21 17:20:26|DEBUG|Triggered interest and fees
+2025-02-21 17:31:27|DEBUG|Created account: 1
+2025-02-24 16:36:22|DEBUG|Created account: 1
+2025-02-24 16:36:32|DEBUG|Created transaction: 1 4
+2025-02-24 16:36:39|DEBUG|Created transaction: 1 0.0032
+2025-02-24 16:36:39|DEBUG|Created transaction: 1 -5.75
+2025-02-24 16:36:39|DEBUG|Triggered interest and fees
+2025-02-24 16:37:09|DEBUG|Created account: 1
+2025-02-24 16:37:17|DEBUG|Created transaction: 1 1000
+2025-02-24 16:37:28|DEBUG|Created transaction: 1 10
+2025-02-24 16:37:38|DEBUG|Created transaction: 1 20
+2025-02-24 16:50:24|DEBUG|Created account: 1
+2025-02-24 16:50:36|DEBUG|Created transaction: 1 4
+2025-02-24 16:50:41|DEBUG|Created transaction: 1 0.0032
+2025-02-24 16:50:41|DEBUG|Created transaction: 1 -5.75
+2025-02-24 16:50:41|DEBUG|Triggered interest and fees
+2025-02-24 16:51:01|DEBUG|Created account: 1
+2025-02-24 16:51:09|DEBUG|Created transaction: 1 1000
+2025-02-24 16:51:20|DEBUG|Created transaction: 1 10
+2025-02-24 16:51:26|DEBUG|Created transaction: 1 20
+2025-02-24 16:52:09|DEBUG|Created account: 1
+2025-02-24 16:52:16|DEBUG|Created transaction: 1 1000
+2025-02-24 16:52:25|DEBUG|Created transaction: 1 10
+2025-02-24 16:52:40|DEBUG|Created transaction: 1 20
+2025-02-24 16:53:47|DEBUG|Created account: 1
+2025-02-24 16:54:15|DEBUG|Created account: 1
+2025-02-24 16:54:21|DEBUG|Created transaction: 1 1000
+2025-02-24 16:54:33|DEBUG|Created transaction: 1 10
+2025-02-24 16:54:41|DEBUG|Created transaction: 1 20
+2025-02-24 17:02:56|DEBUG|Created account: 1
+2025-02-24 17:03:19|DEBUG|Created account: 1
+2025-02-24 17:03:54|DEBUG|Created account: 1
+2025-02-24 17:04:06|DEBUG|Created transaction: 1 50
+2025-02-24 17:05:00|DEBUG|Created account: 1
+2025-02-24 17:05:06|DEBUG|Created transaction: 1 50
+2025-02-24 17:05:25|DEBUG|Created account: 1
+2025-02-24 17:05:32|DEBUG|Created transaction: 1 4
+2025-02-24 17:05:43|DEBUG|Created transaction: 1 0.0032
+2025-02-24 17:05:43|DEBUG|Created transaction: 1 -5.75
+2025-02-24 17:05:43|DEBUG|Triggered interest and fees
+2025-02-24 17:05:54|DEBUG|Created account: 1
+2025-02-24 17:06:03|DEBUG|Created transaction: 1 1000
+2025-02-24 17:06:12|DEBUG|Created transaction: 1 10
+2025-02-24 17:06:19|DEBUG|Created transaction: 1 20
+2025-02-24 17:07:01|DEBUG|Created account: 1
+2025-02-24 17:07:10|DEBUG|Created transaction: 1 1000
+2025-02-24 17:07:24|DEBUG|Created transaction: 1 10
+2025-02-24 17:07:34|DEBUG|Created transaction: 1 20
+2025-02-24 17:15:06|DEBUG|Created account: 1
+2025-02-24 17:15:22|DEBUG|Created transaction: 1 1000
+2025-02-24 17:15:34|DEBUG|Created transaction: 1 10
+2025-02-24 17:15:49|DEBUG|Created transaction: 1 20
+2025-02-24 18:27:39|DEBUG|Created account: 1
+2025-02-24 18:27:48|DEBUG|Created transaction: 1 50
+2025-02-24 18:27:53|DEBUG|Created transaction: 1 50
+2025-02-24 18:28:04|DEBUG|Created transaction: 1 50
+2025-02-24 18:28:49|DEBUG|Created account: 1
+2025-02-24 18:28:54|DEBUG|Created transaction: 1 50
+2025-02-24 18:28:58|DEBUG|Created transaction: 1 50
+2025-02-24 18:29:05|DEBUG|Created transaction: 1 50
+2025-02-24 18:29:51|DEBUG|Created account: 1
+2025-02-24 18:29:55|DEBUG|Created transaction: 1 50
+2025-02-24 18:30:00|DEBUG|Created transaction: 1 50
+2025-02-24 18:31:14|DEBUG|Created account: 1
+2025-02-24 18:31:19|DEBUG|Created transaction: 1 50
+2025-02-24 18:32:06|DEBUG|Created account: 1
+2025-02-24 18:32:11|DEBUG|Created transaction: 1 50
+2025-02-24 18:32:16|DEBUG|Created transaction: 1 20
+2025-02-24 18:33:03|DEBUG|Created account: 1
+2025-02-24 18:33:11|DEBUG|Created transaction: 1 50
+2025-02-24 18:33:16|DEBUG|Created transaction: 1 24
+2025-02-24 18:37:45|DEBUG|Created account: 1
+2025-02-24 18:38:13|DEBUG|Created account: 1
+2025-02-24 18:38:34|DEBUG|Created account: 1
+2025-02-24 18:38:38|DEBUG|Created transaction: 1 50
+2025-02-24 18:38:43|DEBUG|Created transaction: 1 20
+2025-02-24 18:39:36|DEBUG|Created account: 1
+2025-02-24 18:39:41|DEBUG|Created transaction: 1 50
+2025-02-24 18:39:48|DEBUG|Created transaction: 1 50
+2025-02-24 18:40:42|DEBUG|Created account: 1
+2025-02-24 18:40:50|DEBUG|Created transaction: 1 1000
+2025-02-24 18:40:59|DEBUG|Created transaction: 1 10
+2025-02-24 18:41:05|DEBUG|Created transaction: 1 20
+2025-02-24 18:41:11|DEBUG|Created transaction: 1 30
+2025-02-24 18:41:17|DEBUG|Created transaction: 1 40
+2025-02-24 18:41:22|DEBUG|Created transaction: 1 50
+2025-02-25 22:00:52|DEBUG|Created account: 1
+2025-02-26 01:17:56|INFO|BEGIN (implicit)
+2025-02-26 01:17:56|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:17:56|INFO|[raw sql] ()
+2025-02-26 01:17:56|INFO|PRAGMA temp.table_info("account")
+2025-02-26 01:17:56|INFO|[raw sql] ()
+2025-02-26 01:17:56|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:17:56|INFO|[raw sql] ()
+2025-02-26 01:17:56|INFO|PRAGMA temp.table_info("bank")
+2025-02-26 01:17:56|INFO|[raw sql] ()
+2025-02-26 01:17:56|INFO|
+CREATE TABLE bank (
+	_id INTEGER NOT NULL, 
+	PRIMARY KEY (_id)
+)
+
+
+2025-02-26 01:17:56|INFO|[no key 0.00005s] ()
+2025-02-26 01:17:56|INFO|
+CREATE TABLE account (
+	_id INTEGER NOT NULL, 
+	_bank_id INTEGER, 
+	_transactions VARCHAR, 
+	_account_number INTEGER, 
+	PRIMARY KEY (_id), 
+	FOREIGN KEY(_bank_id) REFERENCES bank (_id)
+)
+
+
+2025-02-26 01:17:56|INFO|[no key 0.00005s] ()
+2025-02-26 01:17:56|INFO|COMMIT
+2025-02-26 01:17:56|INFO|BEGIN (implicit)
+2025-02-26 01:17:56|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:17:56|INFO|[generated in 0.00009s] (1,)
+2025-02-26 01:17:56|INFO|INSERT INTO bank DEFAULT VALUES
+2025-02-26 01:17:56|INFO|[generated in 0.00013s] ()
+2025-02-26 01:17:56|INFO|COMMIT
+2025-02-26 01:18:04|INFO|BEGIN (implicit)
+2025-02-26 01:18:04|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:18:04|INFO|[generated in 0.00025s] (1,)
+2025-02-26 01:18:04|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._transactions AS account__transactions, account._account_number AS account__account_number 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:18:04|INFO|[generated in 0.00031s] (1,)
+2025-02-26 01:18:04|DEBUG|Created account: 1
+2025-02-26 01:19:52|INFO|BEGIN (implicit)
+2025-02-26 01:19:52|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:19:52|INFO|[raw sql] ()
+2025-02-26 01:19:52|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:19:52|INFO|[raw sql] ()
+2025-02-26 01:19:52|INFO|COMMIT
+2025-02-26 01:19:52|INFO|BEGIN (implicit)
+2025-02-26 01:19:52|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:19:52|INFO|[generated in 0.00009s] (1,)
+2025-02-26 01:25:14|INFO|BEGIN (implicit)
+2025-02-26 01:25:14|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:25:14|INFO|[raw sql] ()
+2025-02-26 01:25:14|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:25:14|INFO|[raw sql] ()
+2025-02-26 01:25:14|INFO|COMMIT
+2025-02-26 01:25:14|INFO|BEGIN (implicit)
+2025-02-26 01:25:14|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:25:14|INFO|[generated in 0.00009s] (1,)
+2025-02-26 01:25:26|INFO|BEGIN (implicit)
+2025-02-26 01:25:26|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:25:26|INFO|[raw sql] ()
+2025-02-26 01:25:26|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:25:26|INFO|[raw sql] ()
+2025-02-26 01:25:26|INFO|COMMIT
+2025-02-26 01:25:26|INFO|BEGIN (implicit)
+2025-02-26 01:25:26|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:25:26|INFO|[generated in 0.00009s] (1,)
+2025-02-26 01:25:43|INFO|BEGIN (implicit)
+2025-02-26 01:25:43|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:25:43|INFO|[raw sql] ()
+2025-02-26 01:25:43|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:25:43|INFO|[raw sql] ()
+2025-02-26 01:25:43|INFO|COMMIT
+2025-02-26 01:25:43|INFO|BEGIN (implicit)
+2025-02-26 01:25:43|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:25:43|INFO|[generated in 0.00015s] (1,)
+2025-02-26 01:25:47|INFO|BEGIN (implicit)
+2025-02-26 01:25:47|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:25:47|INFO|[raw sql] ()
+2025-02-26 01:25:47|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:25:47|INFO|[raw sql] ()
+2025-02-26 01:25:47|INFO|COMMIT
+2025-02-26 01:25:47|INFO|BEGIN (implicit)
+2025-02-26 01:25:47|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:25:47|INFO|[generated in 0.00010s] (1,)
+2025-02-26 01:26:25|INFO|BEGIN (implicit)
+2025-02-26 01:26:25|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:26:25|INFO|[raw sql] ()
+2025-02-26 01:26:25|INFO|PRAGMA temp.table_info("account")
+2025-02-26 01:26:25|INFO|[raw sql] ()
+2025-02-26 01:26:25|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:26:25|INFO|[raw sql] ()
+2025-02-26 01:26:25|INFO|PRAGMA temp.table_info("bank")
+2025-02-26 01:26:25|INFO|[raw sql] ()
+2025-02-26 01:26:25|INFO|
+CREATE TABLE bank (
+	_id INTEGER NOT NULL, 
+	PRIMARY KEY (_id)
+)
+
+
+2025-02-26 01:26:25|INFO|[no key 0.00005s] ()
+2025-02-26 01:26:25|INFO|
+CREATE TABLE account (
+	_id INTEGER NOT NULL, 
+	_bank_id INTEGER, 
+	_transactions VARCHAR, 
+	_account_number INTEGER, 
+	_account_type VARCHAR, 
+	PRIMARY KEY (_id), 
+	FOREIGN KEY(_bank_id) REFERENCES bank (_id)
+)
+
+
+2025-02-26 01:26:25|INFO|[no key 0.00005s] ()
+2025-02-26 01:26:25|INFO|COMMIT
+2025-02-26 01:26:25|INFO|BEGIN (implicit)
+2025-02-26 01:26:25|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:26:25|INFO|[generated in 0.00010s] (1,)
+2025-02-26 01:26:25|INFO|INSERT INTO bank DEFAULT VALUES
+2025-02-26 01:26:25|INFO|[generated in 0.00033s] ()
+2025-02-26 01:26:25|INFO|COMMIT
+2025-02-26 01:27:14|INFO|BEGIN (implicit)
+2025-02-26 01:27:14|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:27:14|INFO|[raw sql] ()
+2025-02-26 01:27:14|INFO|PRAGMA temp.table_info("account")
+2025-02-26 01:27:14|INFO|[raw sql] ()
+2025-02-26 01:27:14|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:27:14|INFO|[raw sql] ()
+2025-02-26 01:27:14|INFO|PRAGMA temp.table_info("bank")
+2025-02-26 01:27:14|INFO|[raw sql] ()
+2025-02-26 01:27:14|INFO|
+CREATE TABLE bank (
+	_id INTEGER NOT NULL, 
+	PRIMARY KEY (_id)
+)
+
+
+2025-02-26 01:27:14|INFO|[no key 0.00005s] ()
+2025-02-26 01:27:14|INFO|
+CREATE TABLE account (
+	_id INTEGER NOT NULL, 
+	_bank_id INTEGER, 
+	_transactions VARCHAR, 
+	_account_number INTEGER, 
+	_account_type VARCHAR, 
+	PRIMARY KEY (_id), 
+	FOREIGN KEY(_bank_id) REFERENCES bank (_id)
+)
+
+
+2025-02-26 01:27:14|INFO|[no key 0.00007s] ()
+2025-02-26 01:27:14|INFO|COMMIT
+2025-02-26 01:27:14|INFO|BEGIN (implicit)
+2025-02-26 01:27:14|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:27:14|INFO|[generated in 0.00010s] (1,)
+2025-02-26 01:27:14|INFO|INSERT INTO bank DEFAULT VALUES
+2025-02-26 01:27:14|INFO|[generated in 0.00010s] ()
+2025-02-26 01:27:14|INFO|COMMIT
+2025-02-26 01:27:16|INFO|BEGIN (implicit)
+2025-02-26 01:27:16|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:27:16|INFO|[generated in 0.00019s] (1,)
+2025-02-26 01:27:16|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._transactions AS account__transactions, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:27:16|INFO|[generated in 0.00012s] (1,)
+2025-02-26 01:27:16|DEBUG|Created account: 1
+2025-02-26 01:27:16|INFO|INSERT INTO account (_bank_id, _transactions, _account_number, _account_type) VALUES (?, ?, ?, ?)
+2025-02-26 01:27:16|INFO|[generated in 0.00010s] (1, [], 1, 'checking')
+2025-02-26 01:27:16|INFO|ROLLBACK
+2025-02-26 01:32:38|INFO|BEGIN (implicit)
+2025-02-26 01:32:38|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:32:38|INFO|[raw sql] ()
+2025-02-26 01:32:38|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:32:38|INFO|[raw sql] ()
+2025-02-26 01:32:38|INFO|COMMIT
+2025-02-26 01:32:38|INFO|BEGIN (implicit)
+2025-02-26 01:32:38|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:32:38|INFO|[generated in 0.00013s] (1,)
+2025-02-26 01:32:41|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._transactions AS account__transactions, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:32:41|INFO|[generated in 0.00034s] (1,)
+2025-02-26 01:32:41|DEBUG|Created account: 1
+2025-02-26 01:32:41|INFO|INSERT INTO account (_bank_id, _transactions, _account_number, _account_type) VALUES (?, ?, ?, ?)
+2025-02-26 01:32:41|INFO|[generated in 0.00011s] (1, '[]', 1, 'checking')
+2025-02-26 01:32:41|INFO|COMMIT
+2025-02-26 01:32:43|INFO|BEGIN (implicit)
+2025-02-26 01:32:43|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:32:43|INFO|[generated in 0.00024s] (1,)
+2025-02-26 01:32:43|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._transactions AS account__transactions, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:32:43|INFO|[cached since 2.042s ago] (1,)
+2025-02-26 01:33:49|INFO|BEGIN (implicit)
+2025-02-26 01:33:49|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:33:49|INFO|[raw sql] ()
+2025-02-26 01:33:49|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:33:49|INFO|[raw sql] ()
+2025-02-26 01:33:49|INFO|COMMIT
+2025-02-26 01:33:49|INFO|BEGIN (implicit)
+2025-02-26 01:33:49|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:33:49|INFO|[generated in 0.00010s] (1,)
+2025-02-26 01:33:51|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._transactions AS account__transactions, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:33:51|INFO|[generated in 0.00047s] (1,)
+2025-02-26 01:33:51|DEBUG|Created account: 2
+2025-02-26 01:33:51|INFO|INSERT INTO account (_bank_id, _transactions, _account_number, _account_type) VALUES (?, ?, ?, ?)
+2025-02-26 01:33:51|INFO|[generated in 0.00012s] (1, [], 2, 'checking')
+2025-02-26 01:33:51|INFO|ROLLBACK
+2025-02-26 01:36:08|INFO|BEGIN (implicit)
+2025-02-26 01:36:08|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:36:08|INFO|[raw sql] ()
+2025-02-26 01:36:08|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:36:08|INFO|[raw sql] ()
+2025-02-26 01:36:08|INFO|COMMIT
+2025-02-26 01:36:08|INFO|BEGIN (implicit)
+2025-02-26 01:36:08|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:36:08|INFO|[generated in 0.00010s] (1,)
+2025-02-26 01:36:10|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._transactions AS account__transactions, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:36:10|INFO|[generated in 0.00032s] (1,)
+2025-02-26 01:36:10|DEBUG|Created account: 2
+2025-02-26 01:36:10|INFO|INSERT INTO account (_bank_id, _transactions, _account_number, _account_type) VALUES (?, ?, ?, ?)
+2025-02-26 01:36:10|INFO|[generated in 0.00016s] (1, [], 2, 'checking')
+2025-02-26 01:36:10|INFO|ROLLBACK
+2025-02-26 01:45:56|INFO|BEGIN (implicit)
+2025-02-26 01:45:56|INFO|PRAGMA main.table_info("transaction")
+2025-02-26 01:45:56|INFO|[raw sql] ()
+2025-02-26 01:45:56|INFO|PRAGMA temp.table_info("transaction")
+2025-02-26 01:45:56|INFO|[raw sql] ()
+2025-02-26 01:45:56|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:45:56|INFO|[raw sql] ()
+2025-02-26 01:45:56|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:45:56|INFO|[raw sql] ()
+2025-02-26 01:45:56|INFO|
+CREATE TABLE "transaction" (
+	_id INTEGER NOT NULL, 
+	_amt NUMERIC, 
+	_date DATETIME, 
+	_exempt BOOLEAN, 
+	_account_id INTEGER, 
+	PRIMARY KEY (_id), 
+	FOREIGN KEY(_account_id) REFERENCES account (_id)
+)
+
+
+2025-02-26 01:45:56|INFO|[no key 0.00005s] ()
+2025-02-26 01:45:56|INFO|COMMIT
+2025-02-26 01:45:56|INFO|BEGIN (implicit)
+2025-02-26 01:47:39|INFO|BEGIN (implicit)
+2025-02-26 01:47:39|INFO|PRAGMA main.table_info("transaction")
+2025-02-26 01:47:39|INFO|[raw sql] ()
+2025-02-26 01:47:39|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:47:39|INFO|[raw sql] ()
+2025-02-26 01:47:39|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:47:39|INFO|[raw sql] ()
+2025-02-26 01:47:39|INFO|COMMIT
+2025-02-26 01:47:39|INFO|BEGIN (implicit)
+2025-02-26 01:47:39|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:47:39|INFO|[generated in 0.00010s] (1,)
+2025-02-26 01:47:41|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:47:41|INFO|[generated in 0.00039s] (1,)
+2025-02-26 01:47:41|DEBUG|Created account: 2
+2025-02-26 01:47:41|INFO|INSERT INTO account (_bank_id, _account_number, _account_type) VALUES (?, ?, ?)
+2025-02-26 01:47:41|INFO|[generated in 0.00011s] (1, 2, 'checking')
+2025-02-26 01:47:41|INFO|COMMIT
+2025-02-26 01:47:43|INFO|BEGIN (implicit)
+2025-02-26 01:47:43|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:47:43|INFO|[generated in 0.00023s] (1,)
+2025-02-26 01:47:43|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:47:43|INFO|[cached since 1.73s ago] (1,)
+2025-02-26 01:47:43|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 01:47:43|INFO|[generated in 0.00053s] (1,)
+2025-02-26 01:48:34|INFO|BEGIN (implicit)
+2025-02-26 01:48:34|INFO|PRAGMA main.table_info("transaction")
+2025-02-26 01:48:34|INFO|[raw sql] ()
+2025-02-26 01:48:34|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:48:34|INFO|[raw sql] ()
+2025-02-26 01:48:34|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:48:34|INFO|[raw sql] ()
+2025-02-26 01:48:34|INFO|COMMIT
+2025-02-26 01:48:34|INFO|BEGIN (implicit)
+2025-02-26 01:48:34|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:48:34|INFO|[generated in 0.00010s] (1,)
+2025-02-26 01:48:36|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:48:36|INFO|[generated in 0.00033s] (1,)
+2025-02-26 01:48:36|DEBUG|Created account: 3
+2025-02-26 01:48:36|INFO|INSERT INTO account (_bank_id, _account_number, _account_type) VALUES (?, ?, ?)
+2025-02-26 01:48:36|INFO|[generated in 0.00011s] (1, 3, 'checking')
+2025-02-26 01:48:36|INFO|COMMIT
+2025-02-26 01:48:37|INFO|BEGIN (implicit)
+2025-02-26 01:48:37|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:48:37|INFO|[generated in 0.00027s] (1,)
+2025-02-26 01:48:37|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:48:37|INFO|[cached since 1.174s ago] (1,)
+2025-02-26 01:48:37|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 01:48:37|INFO|[generated in 0.00028s] (1,)
+2025-02-26 01:48:52|INFO|BEGIN (implicit)
+2025-02-26 01:48:52|INFO|PRAGMA main.table_info("transaction")
+2025-02-26 01:48:52|INFO|[raw sql] ()
+2025-02-26 01:48:52|INFO|PRAGMA temp.table_info("transaction")
+2025-02-26 01:48:52|INFO|[raw sql] ()
+2025-02-26 01:48:52|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:48:52|INFO|[raw sql] ()
+2025-02-26 01:48:52|INFO|PRAGMA temp.table_info("account")
+2025-02-26 01:48:52|INFO|[raw sql] ()
+2025-02-26 01:48:52|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:48:52|INFO|[raw sql] ()
+2025-02-26 01:48:52|INFO|PRAGMA temp.table_info("bank")
+2025-02-26 01:48:52|INFO|[raw sql] ()
+2025-02-26 01:48:52|INFO|
+CREATE TABLE bank (
+	_id INTEGER NOT NULL, 
+	PRIMARY KEY (_id)
+)
+
+
+2025-02-26 01:48:52|INFO|[no key 0.00005s] ()
+2025-02-26 01:48:52|INFO|
+CREATE TABLE account (
+	_id INTEGER NOT NULL, 
+	_bank_id INTEGER, 
+	_account_number INTEGER, 
+	_account_type VARCHAR, 
+	PRIMARY KEY (_id), 
+	FOREIGN KEY(_bank_id) REFERENCES bank (_id)
+)
+
+
+2025-02-26 01:48:52|INFO|[no key 0.00008s] ()
+2025-02-26 01:48:52|INFO|
+CREATE TABLE "transaction" (
+	_id INTEGER NOT NULL, 
+	_amt NUMERIC, 
+	_date DATETIME, 
+	_exempt BOOLEAN, 
+	_account_id INTEGER, 
+	PRIMARY KEY (_id), 
+	FOREIGN KEY(_account_id) REFERENCES account (_id)
+)
+
+
+2025-02-26 01:48:52|INFO|[no key 0.00005s] ()
+2025-02-26 01:48:52|INFO|COMMIT
+2025-02-26 01:48:52|INFO|BEGIN (implicit)
+2025-02-26 01:48:52|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:48:52|INFO|[generated in 0.00013s] (1,)
+2025-02-26 01:48:52|INFO|INSERT INTO bank DEFAULT VALUES
+2025-02-26 01:48:52|INFO|[generated in 0.00007s] ()
+2025-02-26 01:48:52|INFO|COMMIT
+2025-02-26 01:49:26|INFO|BEGIN (implicit)
+2025-02-26 01:49:26|INFO|PRAGMA main.table_info("transaction")
+2025-02-26 01:49:26|INFO|[raw sql] ()
+2025-02-26 01:49:26|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:49:26|INFO|[raw sql] ()
+2025-02-26 01:49:26|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:49:26|INFO|[raw sql] ()
+2025-02-26 01:49:26|INFO|COMMIT
+2025-02-26 01:49:26|INFO|BEGIN (implicit)
+2025-02-26 01:49:26|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:49:26|INFO|[generated in 0.00010s] (1,)
+2025-02-26 01:49:28|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:49:28|INFO|[generated in 0.00033s] (1,)
+2025-02-26 01:49:28|DEBUG|Created account: 1
+2025-02-26 01:49:28|INFO|INSERT INTO account (_bank_id, _account_number, _account_type) VALUES (?, ?, ?)
+2025-02-26 01:49:28|INFO|[generated in 0.00015s] (1, 1, 'checking')
+2025-02-26 01:49:28|INFO|COMMIT
+2025-02-26 01:49:29|INFO|BEGIN (implicit)
+2025-02-26 01:49:29|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:49:29|INFO|[generated in 0.00026s] (1,)
+2025-02-26 01:49:29|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:49:29|INFO|[cached since 0.9491s ago] (1,)
+2025-02-26 01:49:29|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 01:49:29|INFO|[generated in 0.00027s] (1,)
+2025-02-26 01:49:45|INFO|BEGIN (implicit)
+2025-02-26 01:49:45|INFO|PRAGMA main.table_info("transaction")
+2025-02-26 01:49:45|INFO|[raw sql] ()
+2025-02-26 01:49:45|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:49:45|INFO|[raw sql] ()
+2025-02-26 01:49:45|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:49:45|INFO|[raw sql] ()
+2025-02-26 01:49:45|INFO|COMMIT
+2025-02-26 01:49:45|INFO|BEGIN (implicit)
+2025-02-26 01:49:45|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:49:45|INFO|[generated in 0.00010s] (1,)
+2025-02-26 01:49:48|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:49:48|INFO|[generated in 0.00035s] (1,)
+2025-02-26 01:49:48|DEBUG|Created account: 2
+2025-02-26 01:49:48|INFO|INSERT INTO account (_bank_id, _account_number, _account_type) VALUES (?, ?, ?)
+2025-02-26 01:49:48|INFO|[generated in 0.00016s] (1, 2, 'checking')
+2025-02-26 01:49:48|INFO|COMMIT
+2025-02-26 01:49:51|INFO|BEGIN (implicit)
+2025-02-26 01:49:51|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:49:51|INFO|[generated in 0.00039s] (1,)
+2025-02-26 01:49:51|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:49:51|INFO|[cached since 2.514s ago] (1,)
+2025-02-26 01:49:51|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 01:49:51|INFO|[generated in 0.00049s] (1,)
+2025-02-26 01:49:53|DEBUG|Created transaction: 1 50
+2025-02-26 01:49:53|INFO|INSERT INTO "transaction" (_amt, _date, _exempt, _account_id) VALUES (?, ?, ?, ?)
+2025-02-26 01:49:53|INFO|[generated in 0.00024s] (50.0, '2024-10-05 00:00:00.000000', 0, 1)
+2025-02-26 01:49:53|INFO|COMMIT
+2025-02-26 01:49:53|INFO|BEGIN (implicit)
+2025-02-26 01:49:53|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE account._id = ? AND account._account_type IN (?)
+2025-02-26 01:49:53|INFO|[generated in 0.00016s] (1, 'checking')
+2025-02-26 01:49:53|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 01:49:53|INFO|[cached since 2.59s ago] (1,)
+2025-02-26 01:52:46|INFO|BEGIN (implicit)
+2025-02-26 01:52:46|INFO|PRAGMA main.table_info("transaction")
+2025-02-26 01:52:46|INFO|[raw sql] ()
+2025-02-26 01:52:46|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:52:46|INFO|[raw sql] ()
+2025-02-26 01:52:46|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:52:46|INFO|[raw sql] ()
+2025-02-26 01:52:46|INFO|COMMIT
+2025-02-26 01:52:46|INFO|BEGIN (implicit)
+2025-02-26 01:52:46|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:52:46|INFO|[generated in 0.00010s] (1,)
+2025-02-26 01:52:48|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:52:48|INFO|[generated in 0.00028s] (1,)
+2025-02-26 01:52:48|DEBUG|Created account: 3
+2025-02-26 01:52:48|INFO|INSERT INTO account (_bank_id, _account_number, _account_type) VALUES (?, ?, ?)
+2025-02-26 01:52:48|INFO|[generated in 0.00011s] (1, 3, 'checking')
+2025-02-26 01:52:48|INFO|COMMIT
+2025-02-26 01:52:50|INFO|BEGIN (implicit)
+2025-02-26 01:52:50|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:52:50|INFO|[generated in 0.00044s] (1,)
+2025-02-26 01:52:50|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:52:50|INFO|[cached since 2.119s ago] (1,)
+2025-02-26 01:52:50|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 01:52:50|INFO|[generated in 0.00023s] (1,)
+2025-02-26 01:55:18|INFO|BEGIN (implicit)
+2025-02-26 01:55:18|INFO|PRAGMA main.table_info("transaction")
+2025-02-26 01:55:18|INFO|[raw sql] ()
+2025-02-26 01:55:18|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:55:18|INFO|[raw sql] ()
+2025-02-26 01:55:18|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:55:18|INFO|[raw sql] ()
+2025-02-26 01:55:18|INFO|COMMIT
+2025-02-26 01:55:18|INFO|BEGIN (implicit)
+2025-02-26 01:55:18|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:55:18|INFO|[generated in 0.00011s] (1,)
+2025-02-26 01:55:20|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:55:20|INFO|[generated in 0.00033s] (1,)
+2025-02-26 01:55:20|DEBUG|Created account: 4
+2025-02-26 01:55:20|INFO|INSERT INTO account (_bank_id, _account_number, _account_type) VALUES (?, ?, ?)
+2025-02-26 01:55:20|INFO|[generated in 0.00011s] (1, 4, 'checking')
+2025-02-26 01:55:20|INFO|COMMIT
+2025-02-26 01:55:22|INFO|BEGIN (implicit)
+2025-02-26 01:55:22|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:55:22|INFO|[generated in 0.00051s] (1,)
+2025-02-26 01:55:22|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:55:22|INFO|[cached since 1.493s ago] (1,)
+2025-02-26 01:55:22|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 01:55:22|INFO|[generated in 0.00039s] (1,)
+2025-02-26 01:56:43|INFO|BEGIN (implicit)
+2025-02-26 01:56:43|INFO|PRAGMA main.table_info("transaction")
+2025-02-26 01:56:43|INFO|[raw sql] ()
+2025-02-26 01:56:43|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:56:43|INFO|[raw sql] ()
+2025-02-26 01:56:43|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:56:43|INFO|[raw sql] ()
+2025-02-26 01:56:43|INFO|COMMIT
+2025-02-26 01:56:43|INFO|BEGIN (implicit)
+2025-02-26 01:56:43|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:56:43|INFO|[generated in 0.00009s] (1,)
+2025-02-26 01:56:46|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:56:46|INFO|[generated in 0.00041s] (1,)
+2025-02-26 01:56:46|DEBUG|Created account: 5
+2025-02-26 01:56:46|INFO|INSERT INTO account (_bank_id, _account_number, _account_type) VALUES (?, ?, ?)
+2025-02-26 01:56:46|INFO|[generated in 0.00013s] (1, 5, 'checking')
+2025-02-26 01:56:46|INFO|COMMIT
+2025-02-26 01:56:50|INFO|BEGIN (implicit)
+2025-02-26 01:56:50|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:56:50|INFO|[generated in 0.00021s] (1,)
+2025-02-26 01:56:50|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:56:50|INFO|[cached since 4.322s ago] (1,)
+2025-02-26 01:56:50|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 01:56:50|INFO|[generated in 0.00012s] (1,)
+2025-02-26 01:57:03|INFO|BEGIN (implicit)
+2025-02-26 01:57:03|INFO|PRAGMA main.table_info("transaction")
+2025-02-26 01:57:03|INFO|[raw sql] ()
+2025-02-26 01:57:03|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:57:03|INFO|[raw sql] ()
+2025-02-26 01:57:03|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:57:03|INFO|[raw sql] ()
+2025-02-26 01:57:03|INFO|COMMIT
+2025-02-26 01:57:03|INFO|BEGIN (implicit)
+2025-02-26 01:57:03|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:57:03|INFO|[generated in 0.00010s] (1,)
+2025-02-26 01:57:05|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:57:05|INFO|[generated in 0.00035s] (1,)
+2025-02-26 01:57:05|DEBUG|Created account: 6
+2025-02-26 01:57:05|INFO|INSERT INTO account (_bank_id, _account_number, _account_type) VALUES (?, ?, ?)
+2025-02-26 01:57:05|INFO|[generated in 0.00015s] (1, 6, 'checking')
+2025-02-26 01:57:05|INFO|COMMIT
+2025-02-26 01:57:07|INFO|BEGIN (implicit)
+2025-02-26 01:57:07|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:57:07|INFO|[generated in 0.00021s] (1,)
+2025-02-26 01:57:07|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:57:07|INFO|[cached since 1.456s ago] (1,)
+2025-02-26 01:57:07|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 01:57:07|INFO|[generated in 0.00016s] (1,)
+2025-02-26 01:59:00|INFO|BEGIN (implicit)
+2025-02-26 01:59:00|INFO|PRAGMA main.table_info("transaction")
+2025-02-26 01:59:00|INFO|[raw sql] ()
+2025-02-26 01:59:00|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:59:00|INFO|[raw sql] ()
+2025-02-26 01:59:00|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:59:00|INFO|[raw sql] ()
+2025-02-26 01:59:00|INFO|COMMIT
+2025-02-26 01:59:00|INFO|BEGIN (implicit)
+2025-02-26 01:59:00|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:59:00|INFO|[generated in 0.00011s] (1,)
+2025-02-26 01:59:03|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:59:03|INFO|[generated in 0.00045s] (1,)
+2025-02-26 01:59:03|DEBUG|Created account: 7
+2025-02-26 01:59:03|INFO|INSERT INTO account (_bank_id, _account_number, _account_type) VALUES (?, ?, ?)
+2025-02-26 01:59:03|INFO|[generated in 0.00020s] (1, 7, 'checking')
+2025-02-26 01:59:03|INFO|COMMIT
+2025-02-26 01:59:05|INFO|BEGIN (implicit)
+2025-02-26 01:59:05|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:59:05|INFO|[generated in 0.00014s] (1,)
+2025-02-26 01:59:05|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:59:05|INFO|[cached since 1.169s ago] (1,)
+2025-02-26 01:59:05|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 01:59:05|INFO|[generated in 0.00012s] (1,)
+2025-02-26 01:59:37|INFO|BEGIN (implicit)
+2025-02-26 01:59:37|INFO|PRAGMA main.table_info("transaction")
+2025-02-26 01:59:37|INFO|[raw sql] ()
+2025-02-26 01:59:37|INFO|PRAGMA main.table_info("account")
+2025-02-26 01:59:37|INFO|[raw sql] ()
+2025-02-26 01:59:37|INFO|PRAGMA main.table_info("bank")
+2025-02-26 01:59:37|INFO|[raw sql] ()
+2025-02-26 01:59:37|INFO|COMMIT
+2025-02-26 01:59:37|INFO|BEGIN (implicit)
+2025-02-26 01:59:37|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:59:37|INFO|[generated in 0.00012s] (1,)
+2025-02-26 01:59:39|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:59:39|INFO|[generated in 0.00031s] (1,)
+2025-02-26 01:59:39|DEBUG|Created account: 8
+2025-02-26 01:59:39|INFO|INSERT INTO account (_bank_id, _account_number, _account_type) VALUES (?, ?, ?)
+2025-02-26 01:59:39|INFO|[generated in 0.00017s] (1, 8, 'checking')
+2025-02-26 01:59:39|INFO|COMMIT
+2025-02-26 01:59:42|INFO|BEGIN (implicit)
+2025-02-26 01:59:42|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 01:59:42|INFO|[generated in 0.00043s] (1,)
+2025-02-26 01:59:42|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 01:59:42|INFO|[cached since 3.121s ago] (1,)
+2025-02-26 01:59:42|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 01:59:42|INFO|[generated in 0.00013s] (1,)
+2025-02-26 02:00:44|INFO|BEGIN (implicit)
+2025-02-26 02:00:44|INFO|PRAGMA main.table_info("transaction")
+2025-02-26 02:00:44|INFO|[raw sql] ()
+2025-02-26 02:00:44|INFO|PRAGMA main.table_info("account")
+2025-02-26 02:00:44|INFO|[raw sql] ()
+2025-02-26 02:00:44|INFO|PRAGMA main.table_info("bank")
+2025-02-26 02:00:44|INFO|[raw sql] ()
+2025-02-26 02:00:44|INFO|COMMIT
+2025-02-26 02:00:44|INFO|BEGIN (implicit)
+2025-02-26 02:00:44|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 02:00:44|INFO|[generated in 0.00026s] (1,)
+2025-02-26 02:00:45|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 02:00:45|INFO|[generated in 0.00046s] (1,)
+2025-02-26 02:00:45|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:45|INFO|[generated in 0.00037s] (1,)
+2025-02-26 02:00:45|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:45|INFO|[cached since 0.003176s ago] (2,)
+2025-02-26 02:00:45|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:45|INFO|[cached since 0.00385s ago] (3,)
+2025-02-26 02:00:45|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:45|INFO|[cached since 0.004499s ago] (4,)
+2025-02-26 02:00:45|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:45|INFO|[cached since 0.004862s ago] (5,)
+2025-02-26 02:00:45|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:45|INFO|[cached since 0.005138s ago] (6,)
+2025-02-26 02:00:45|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:45|INFO|[cached since 0.005396s ago] (7,)
+2025-02-26 02:00:45|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:45|INFO|[cached since 0.00654s ago] (8,)
+2025-02-26 02:00:48|DEBUG|Created account: 9
+2025-02-26 02:00:48|INFO|INSERT INTO account (_bank_id, _account_number, _account_type) VALUES (?, ?, ?)
+2025-02-26 02:00:48|INFO|[generated in 0.00025s] (1, 9, 'checking')
+2025-02-26 02:00:48|INFO|COMMIT
+2025-02-26 02:00:49|INFO|BEGIN (implicit)
+2025-02-26 02:00:49|INFO|SELECT bank._id AS bank__id 
+FROM bank 
+WHERE bank._id = ?
+2025-02-26 02:00:49|INFO|[generated in 0.00021s] (1,)
+2025-02-26 02:00:49|INFO|SELECT account._id AS account__id, account._bank_id AS account__bank_id, account._account_number AS account__account_number, account._account_type AS account__account_type 
+FROM account 
+WHERE ? = account._bank_id
+2025-02-26 02:00:49|INFO|[cached since 4.075s ago] (1,)
+2025-02-26 02:00:49|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:49|INFO|[cached since 4.072s ago] (1,)
+2025-02-26 02:00:49|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:49|INFO|[cached since 4.073s ago] (2,)
+2025-02-26 02:00:49|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:49|INFO|[cached since 4.073s ago] (3,)
+2025-02-26 02:00:49|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:49|INFO|[cached since 4.074s ago] (4,)
+2025-02-26 02:00:49|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:49|INFO|[cached since 4.075s ago] (5,)
+2025-02-26 02:00:49|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:49|INFO|[cached since 4.075s ago] (6,)
+2025-02-26 02:00:49|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:49|INFO|[cached since 4.076s ago] (7,)
+2025-02-26 02:00:49|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:49|INFO|[cached since 4.076s ago] (8,)
+2025-02-26 02:00:49|INFO|SELECT "transaction"._id AS transaction__id, "transaction"._amt AS transaction__amt, "transaction"._date AS transaction__date, "transaction"._exempt AS transaction__exempt, "transaction"._account_id AS transaction__account_id 
+FROM "transaction" 
+WHERE ? = "transaction"._account_id
+2025-02-26 02:00:49|INFO|[cached since 4.077s ago] (9,)
+2025-02-26 02:01:20|DEBUG|Created account: 1
+2025-02-26 02:01:25|DEBUG|Created transaction: 1 50
+2025-02-26 02:02:23|DEBUG|Created account: 2
+2025-02-26 02:04:45|DEBUG|Created account: 1
+2025-02-26 02:04:47|DEBUG|Created account: 2
+2025-02-26 02:05:18|DEBUG|Created account: 3
+2025-02-26 02:05:22|DEBUG|Created transaction: 1 50
+2025-02-26 02:06:07|DEBUG|Created account: 4
+2025-02-26 02:12:47|DEBUG|Created account: 1
+2025-02-26 02:12:51|DEBUG|Created transaction: 1 50
+2025-02-26 02:13:19|DEBUG|Created account: 1
+2025-02-26 02:13:25|DEBUG|Created transaction: 1 50
+2025-02-26 02:14:16|DEBUG|Created account: 1
+2025-02-26 02:14:21|DEBUG|Created transaction: 1 50
+2025-02-26 02:14:44|DEBUG|Created account: 1
+2025-02-26 02:14:49|DEBUG|Created transaction: 1 50
+2025-02-26 02:15:59|DEBUG|Created account: 2
+2025-02-26 02:18:11|DEBUG|Created account: 1
+2025-02-26 02:18:15|DEBUG|Created transaction: 1 50
+2025-02-26 02:18:20|DEBUG|Created transaction: 1 50
+2025-02-26 02:18:26|DEBUG|Created transaction: 1 50
+2025-02-26 02:18:36|DEBUG|Created transaction: 1 50
+2025-02-26 02:26:13|DEBUG|Created account: 2
+2025-02-26 02:26:18|DEBUG|Created transaction: 1 50
+2025-02-26 02:26:23|DEBUG|Created transaction: 1 50
+2025-02-26 02:26:27|DEBUG|Created transaction: 1 50
+2025-02-26 02:27:05|DEBUG|Created account: 3
+2025-02-26 02:27:31|DEBUG|Created account: 4
+2025-02-26 02:28:29|DEBUG|Created account: 1
+2025-02-26 02:28:35|DEBUG|Created account: 2
+2025-02-26 02:29:29|DEBUG|Created account: 1
+2025-02-26 02:31:40|DEBUG|Created account: 1
+2025-02-26 02:31:45|DEBUG|Created account: 2
+2025-02-26 02:32:27|DEBUG|Created account: 1
+2025-02-26 02:32:32|DEBUG|Created account: 2
+2025-02-26 02:34:14|DEBUG|Created account: 1
+2025-02-26 02:35:12|DEBUG|Created account: 1
+2025-02-26 02:35:16|DEBUG|Created transaction: 1 50
+2025-02-26 02:35:22|DEBUG|Created transaction: 1 50
+2025-02-26 02:35:27|DEBUG|Created transaction: 1 50
+2025-02-26 02:35:37|DEBUG|Created transaction: 1 50
+2025-02-26 02:36:34|DEBUG|Created account: 1
+2025-02-26 02:36:39|DEBUG|Created transaction: 1 50
+2025-02-26 02:36:46|DEBUG|Created transaction: 1 50
+2025-02-26 02:36:51|DEBUG|Created transaction: 1 50
+2025-02-26 02:37:21|DEBUG|Created account: 1
+2025-02-26 02:39:13|DEBUG|Created account: 1
+2025-02-26 02:39:19|DEBUG|Created transaction: 1 50
+2025-02-26 02:39:24|DEBUG|Created transaction: 1 20
+2025-02-26 02:39:29|DEBUG|Created transaction: 1 20
+2025-02-26 02:39:37|DEBUG|Created transaction: 1 20
+2025-02-26 02:39:41|DEBUG|Created transaction: 1 20
+2025-02-26 02:40:53|DEBUG|Created account: 2
+2025-02-26 02:41:19|DEBUG|Created account: 1
+2025-02-26 02:41:24|DEBUG|Created transaction: 1 50
+2025-02-26 02:41:29|DEBUG|Created transaction: 1 50
+2025-02-26 02:41:33|DEBUG|Created transaction: 1 50
+2025-02-26 02:41:42|DEBUG|Created transaction: 1 50
+2025-02-26 02:41:46|DEBUG|Created transaction: 1 50
+2025-02-26 02:43:51|DEBUG|Created account: 1
+2025-02-26 02:45:02|DEBUG|Created account: 1
+2025-02-26 02:45:08|DEBUG|Created transaction: 1 50
+2025-02-26 02:45:13|DEBUG|Created transaction: 1 50
+2025-02-26 02:45:17|DEBUG|Created transaction: 1 50
+2025-02-26 02:45:22|DEBUG|Created transaction: 1 50
+2025-02-26 02:45:26|DEBUG|Created transaction: 1 50
+2025-02-26 02:46:12|DEBUG|Created account: 1
+2025-02-26 02:46:16|DEBUG|Created transaction: 1 50
+2025-02-26 02:46:21|DEBUG|Created transaction: 1 50
+2025-02-26 02:47:33|DEBUG|Created account: 1
+2025-02-26 02:47:37|DEBUG|Created transaction: 1 50
+2025-02-26 02:49:44|DEBUG|Created transaction: 1 50
+2025-02-26 02:50:18|DEBUG|Created account: 2
+2025-02-26 02:50:29|DEBUG|Created transaction: 1 0E-10
+2025-02-26 02:50:29|DEBUG|Triggered interest and fees
+2025-02-26 02:50:56|DEBUG|Created account: 3
+2025-02-26 02:51:26|DEBUG|Created account: 1
+2025-02-26 02:51:33|DEBUG|Created account: 2
+2025-02-26 02:51:37|DEBUG|Created transaction: 2 50
+2025-02-26 02:51:42|DEBUG|Created transaction: 2 50
+2025-02-26 02:52:18|DEBUG|Created account: 1
+2025-02-26 02:52:21|DEBUG|Created transaction: 1 50
+2025-02-26 02:52:26|DEBUG|Created transaction: 1 50
+2025-02-26 02:52:57|DEBUG|Created account: 1
+2025-02-26 02:53:03|DEBUG|Created transaction: 1 50
+2025-02-26 02:53:07|DEBUG|Created transaction: 1 50
+2025-02-26 02:53:15|DEBUG|Created transaction: 1 0E-10
+2025-02-26 02:53:15|DEBUG|Triggered interest and fees
+2025-02-26 02:53:54|DEBUG|Created account: 1
+2025-02-26 02:54:15|DEBUG|Created account: 2
+2025-02-26 02:54:20|DEBUG|Created transaction: 2 50
+2025-02-26 02:54:27|DEBUG|Created transaction: 2 30
+2025-02-26 02:54:28|DEBUG|Created transaction: 2 0E-11
+2025-02-26 02:54:28|DEBUG|Triggered interest and fees
+2025-02-26 02:57:11|DEBUG|Created account: 3
+2025-02-26 02:57:18|DEBUG|Created transaction: 3 50
+2025-02-26 02:57:19|DEBUG|Created transaction: 3 0E-11
+2025-02-26 10:47:03|DEBUG|Created account: 4
+2025-02-26 10:47:08|DEBUG|Created transaction: 1 50
+2025-02-26 10:47:12|DEBUG|Created transaction: 1 0E-11
+2025-02-26 10:47:12|DEBUG|Triggered interest and fees
+2025-02-26 10:50:04|DEBUG|Created account: 5
+2025-02-26 10:58:01|DEBUG|Created account: 1
+2025-02-26 10:58:05|DEBUG|Created transaction: 1 50
+2025-02-26 10:59:34|DEBUG|Created account: 2
+2025-02-26 11:06:20|DEBUG|Created account: 3
+2025-02-26 11:06:24|DEBUG|Created transaction: 1 0.165000000
+2025-02-26 11:06:24|DEBUG|Triggered interest and fees
+2025-02-26 11:06:43|DEBUG|Created transaction: 1 50
+2025-02-26 11:07:08|DEBUG|Created account: 1
+2025-02-26 11:07:12|DEBUG|Created transaction: 1 50
+2025-02-26 11:07:14|DEBUG|Created transaction: 1 0.165000000
+2025-02-26 11:07:14|DEBUG|Triggered interest and fees
+2025-02-26 11:07:18|DEBUG|Created transaction: 1 50
+2025-02-26 11:07:31|DEBUG|Created transaction: 1 5
+2025-02-26 23:25:48|DEBUG|Created account: 1
+2025-02-26 23:25:53|DEBUG|Created transaction: 1 50
+2025-02-26 23:25:56|DEBUG|Created transaction: 1 50
+2025-02-26 23:26:00|DEBUG|Created transaction: 1 50
+2025-02-26 23:26:01|DEBUG|Created transaction: 1 0.120000000
+2025-02-26 23:26:01|DEBUG|Triggered interest and fees
+2025-02-26 23:26:12|DEBUG|Created transaction: 1 -150
+2025-02-26 23:27:37|DEBUG|Created account: 1
+2025-02-26 23:27:41|DEBUG|Created transaction: 1 50
+2025-02-26 23:30:32|DEBUG|Created transaction: 1 50
+2025-02-26 23:30:46|DEBUG|Created account: 2
+2025-02-26 23:31:15|DEBUG|Created account: 1
+2025-02-26 23:31:20|DEBUG|Created transaction: 1 50
+2025-02-26 23:31:30|DEBUG|Created transaction: 1 50
+2025-02-26 23:31:36|DEBUG|Created transaction: 1 0.330000000
+2025-02-26 23:31:36|DEBUG|Triggered interest and fees
+2025-02-26 23:31:44|DEBUG|Created account: 2
+2025-02-26 23:33:30|DEBUG|Created account: 3
+2025-02-26 23:34:52|DEBUG|Created account: 4
+2025-02-27 20:26:41|DEBUG|Created account: 1
+2025-02-27 20:26:52|DEBUG|Created account: 2
+2025-02-27 20:38:39|DEBUG|Created account: 3
+2025-02-27 20:38:44|DEBUG|Created account: 4
+2025-02-27 20:38:49|DEBUG|Created account: 5
+2025-02-27 20:38:51|DEBUG|Created account: 6
+2025-02-27 20:40:59|DEBUG|Created account: 7
+2025-02-27 20:41:00|DEBUG|Created account: 8
+2025-02-27 20:41:03|DEBUG|Created account: 9
+2025-02-27 20:41:06|DEBUG|Created account: 10
+2025-02-27 20:45:21|DEBUG|Created account: 11
+2025-02-27 20:45:25|DEBUG|Created account: 12
+2025-02-27 20:45:48|DEBUG|Created account: 13
+2025-02-27 20:46:28|DEBUG|Created account: 1
+2025-02-27 20:46:39|DEBUG|Created account: 2
+2025-02-27 20:47:31|DEBUG|Created account: 3
+2025-02-27 20:49:47|DEBUG|Created account: 4
+2025-02-27 20:49:47|DEBUG|Created account: 5
+2025-02-27 20:49:50|DEBUG|Created account: 6
+2025-02-27 20:50:16|DEBUG|Created account: 7
+2025-02-27 20:50:19|DEBUG|Created account: 8
+2025-02-27 20:50:39|DEBUG|Created account: 9
+2025-02-27 20:50:41|DEBUG|Created account: 10
+2025-02-27 20:51:03|DEBUG|Created account: 11
+2025-02-27 20:51:15|DEBUG|Created account: 12
+2025-02-27 20:55:05|DEBUG|Created account: 13
+2025-02-27 20:55:55|DEBUG|Created account: 14
+2025-02-27 20:56:21|DEBUG|Created account: 15
+2025-02-27 20:56:22|DEBUG|Created account: 16
+2025-02-27 20:56:28|DEBUG|Created account: 17
+2025-02-27 20:56:31|DEBUG|Created account: 18
+2025-02-27 20:56:35|DEBUG|Created account: 19
+2025-02-27 20:56:38|DEBUG|Created account: 20
+2025-02-27 20:57:06|DEBUG|Created account: 21
+2025-02-27 20:57:12|DEBUG|Created account: 22
+2025-02-27 20:57:14|DEBUG|Created account: 23
+2025-02-27 20:57:37|DEBUG|Created account: 24
+2025-02-27 20:57:41|DEBUG|Created account: 25
+2025-02-27 20:58:11|DEBUG|Created account: 26
+2025-02-27 20:58:13|DEBUG|Created account: 27
+2025-02-27 20:58:27|DEBUG|Created account: 28
+2025-02-27 20:58:38|DEBUG|Created account: 29
+2025-02-27 20:58:41|DEBUG|Created account: 30
+2025-02-27 20:59:37|DEBUG|Created account: 1
+2025-02-27 20:59:39|DEBUG|Created account: 2
+2025-02-27 20:59:40|DEBUG|Created account: 3
+2025-02-27 20:59:42|DEBUG|Created account: 4
+2025-02-27 21:14:37|DEBUG|Created account: 5
+2025-02-27 21:14:43|DEBUG|Created account: 6
+2025-02-27 21:14:45|DEBUG|Created account: 7
+2025-02-27 21:14:47|DEBUG|Created account: 8
+2025-02-27 21:14:50|DEBUG|Created account: 9
+2025-02-27 21:15:40|DEBUG|Created account: 1
+2025-02-27 21:15:42|DEBUG|Created account: 2
+2025-02-27 21:15:45|DEBUG|Created account: 3
+2025-02-27 21:15:47|DEBUG|Created account: 4
+2025-02-27 21:15:49|DEBUG|Created account: 5
+2025-02-27 21:16:00|DEBUG|Created account: 6
+2025-02-27 21:16:02|DEBUG|Created account: 7
+2025-02-27 21:16:04|DEBUG|Created account: 8

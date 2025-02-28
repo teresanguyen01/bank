@@ -8,7 +8,8 @@ from sqlalchemy import create_engine, select
 from sqlalchemy.orm import sessionmaker
 from decimal import Decimal, setcontext, BasicContext, InvalidOperation
 from datetime import datetime
-
+import tkinter as tk
+from tkinter import messagebox
 from bank import Bank, Base
 
 logging.basicConfig(
@@ -23,53 +24,35 @@ setcontext(BasicContext)
 class BankCLI:
     """Driver class for a command-line REPL interface to the Bank application"""
     def __init__(self) -> None:
+        self._window = tk.Tk()
+        self._window.title("Bank Application")
+        self._options_frame = tk.Frame(self._window)
+        tk.Button(self._options_frame, text="Open Account", command=self._open_account).grid(row=1, column=1)
+        tk.Button(self._options_frame, text="Add Transaction", command=self._add_transaction).grid(row=1, column=2)
+        tk.Button(self._options_frame, text="Monthly Triggers", command=self._monthly_triggers).grid(row=1, column=3)
+        tk.Button(self._options_frame, text="Quit", command=self._quit).grid(row=1, column=4)
+        self._list_frame = tk.Frame(self._window)
+        self._list_frame.grid(row=1, column=5, columnspan=1)
+        self._options_frame.grid(row=0, column=1, columnspan=2)
+        self._account_type = None
         self._session = Session()
         self._bank = self._session.get(Bank, 1)
+
         if self._bank is None:
             self._bank = Bank()
             self._session.add(self._bank)
             self._session.commit()
         # establishes relationship to Accounts
         self._selected_account = None
+        self._window.mainloop()
 
-        self._choices = {
-            "1": self._open_account,
-            "2": self._summary,
-            "3": self._select,
-            "4": self._add_transaction,
-            "5": self._list_transactions,
-            "6": self._monthly_triggers,
-            "7": self._quit,
-        }
-
-    def _display_menu(self):
-        print(f"""--------------------------------
-Currently selected account: {self._selected_account}
-Enter command
-1: open account
-2: summary
-3: select account
-4: add transaction
-5: list transactions
-6: interest and fees
-7: quit""")
-
-    def run(self):
-        """Display the menu and respond to choices."""
-        while True:
-            self._display_menu()
-            choice = input(">")
-            action = self._choices.get(choice)
-            # expecting a digit 1-9
-            if action:
-                action()
-            else: 
-                print("{0} is not a valid choice".format(choice))
 
     def _summary(self) -> None:
         # dependency on Account objects
+        row = 0
         for x in self._bank.show_accounts():
-            print(x)
+            tk.Label(self._list_frame, text=x).grid(row=row, column=0)
+            row += 1
 
     def _quit(self):
         self._session.close()
@@ -77,19 +60,49 @@ Enter command
 
     # check here later
     def _add_transaction(self):
-        if (self._selected_account == None): 
+        def add(): 
+            self._bank.add_transaction(self._session, e1.get())
+            e1.destroy()
+            b.destroy()
+            l1.destroy()
+            self._summary()
+
+        if (self._selected_account == None):
             message = "This command requires that you first select an account."
-            print(message)
+            messagebox.showerror("Error", message)
             return
-        amount = None
-        while amount is None:
-            try:
-                amount = input("Amount?\n>")
-                amount = Decimal(amount)
+        
+        def validate_amt(event, entry_widget): 
+            if e1.get().isdigit(): 
+                entry_widget.config(highlightbackground="green", highlightthickness=2)
+            else:
+                entry_widget.config(highlightbackground="red", highlightthickness=2)
+
+        l1 = tk.Label(self._options_frame, text="Amount")
+        l1.grid(row=2, column=1)
+        e1 = tk.Entry(self._options_frame, command=validate_amt)
+        e1.bind("<FocusOut>", lambda event, entry_widget=e1: validate_amt(event, e1))
+        while amount is None: 
+            try: 
+                amount = Decimal(e1.get())
+
             except InvalidOperation as e:
                 message = "Please try again with a valid dollar amount."
                 amount = None
-                print(message)
+                messagebox.showerror("Error", message)
+
+        e1.grid(row=2, column=2)
+        b = tk.Button(self._options_frame, text="Submit", command=add)
+        b.grid(row=2, column=3)
+
+        amount = None
+        while amount is None:
+            try:
+                amount = Decimal(e1.get())
+            except InvalidOperation as e:
+                message = "Please try again with a valid dollar amount."
+                amount = None
+                messagebox.showerror("Error", message)
         date = None
         while not date: 
             try: 
@@ -111,9 +124,45 @@ Enter command
 
 
     def _open_account(self):
-        acct_type = input("Type of account? (checking/savings)\n>")
-        self._bank.add_account(self._session, acct_type)
-        self._session.commit()
+        def add(): 
+            if self._account_type: 
+                self._bank.add_account(self._session, self._account_type)
+                checking_button.destroy()
+                savings_button.destroy()
+                b.destroy()
+                l1.destroy()
+                self._summary()
+                c.destroy()
+                self._session.commit()
+
+        def cancel(): 
+            checking_button.destroy()
+            savings_button.destroy()
+            b.destroy()
+            l1.destroy()
+            c.destroy()
+
+        def select_checking(): 
+            self._account_type = "checking"
+            checking_button.config(highlightbackground="blue")
+            savings_button.config(highlightbackground="SystemButtonFace")
+
+        def select_savings():
+            self._account_type = "savings"
+            savings_button.config(highlightbackground="blue")
+            checking_button.config(highlightbackground="SystemButtonFace")
+
+        l1 = tk.Label(self._options_frame, text="Account Type")
+        l1.grid(row=2, column=1)
+    
+        checking_button = tk.Button(self._options_frame, text="Checking", command=select_checking)
+        savings_button = tk.Button(self._options_frame, text="Savings", command=select_savings)
+        checking_button.grid(row=2, column=2)
+        savings_button.grid(row=2, column=3)
+        b = tk.Button(self._options_frame, text="Submit", command=add)
+        c = tk.Button(self._options_frame, text="Cancel", command=cancel) 
+        b.grid(row=2, column=4)
+        c.grid(row=2, column=5)
 
     def _select(self):
         num = int(input("Enter account number\n>"))
@@ -145,7 +194,7 @@ if __name__ == "__main__":
     engine = create_engine('sqlite:///bank.db')
     Base.metadata.create_all(engine)
     Session = sessionmaker(engine)
-    BankCLI().run()
+    BankCLI()
     #except Exception as e: 
     #    logging.error(f"{type(e).__name__}: {e}")
     #    print("Sorry! Something unexpected happened. Check the logs or contact the developer for assistance.")

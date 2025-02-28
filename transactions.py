@@ -1,14 +1,24 @@
+from sqlalchemy import ForeignKey, Column, Integer, Numeric, DateTime, Boolean
+from sqlalchemy.orm import relationship, backref
 from datetime import date, timedelta
 from decimal import Decimal
+from bank import Base
 
-class Transaction:
+class Transaction(Base):
+    __tablename__ = "transaction"
+    _id = Column(Integer, primary_key=True)
+    _amt = Column(Numeric)
+    _date = Column(DateTime)
+    _exempt = Column(Boolean)
+    _account_id = Column(Integer, ForeignKey("account._id"))
+    
     def __init__(self, amt, date, exempt=False):
         """
         Args:
             amt (Decimal): Decimal object representing dollar amount of the transaction.
             date (Date): Date object representing the date the transaction was created.
             exempt (bool, optional): Determines whether the transaction is exempt from account limits. Defaults to False.
-        """       
+        """ 
         self._amt = amt
         self._date = date
         self._exempt = exempt
@@ -17,7 +27,7 @@ class Transaction:
         """Formats the date and amount of this transaction
         For example, 2022-9-15, $50.00'
         """
-        return f"{self._date}, ${self._amt:,.2f}"
+        return f"{self._date.date()}, ${self._amt:,.2f}"
 
     def is_exempt(self) -> bool:
         "Check if the transaction is exempt from account limits"
@@ -25,7 +35,7 @@ class Transaction:
 
     def in_same_day(self, other) -> bool:
         "Takes in a transaction object and checks whether this transaction shares the same date"
-        return self._date == other._date
+        return self._date.date() == other._date
 
     def in_same_month(self, other) -> bool:
         "Takes in a transaction object and checks whether this transaction shares the same month and year"
